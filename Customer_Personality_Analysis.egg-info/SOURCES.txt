@@ -1,0 +1,6 @@
+setup.py
+Customer_Personality_Analysis.egg-info/PKG-INFO
+Customer_Personality_Analysis.egg-info/SOURCES.txt
+Customer_Personality_Analysis.egg-info/dependency_links.txt
+Customer_Personality_Analysis.egg-info/requires.txt
+Customer_Personality_Analysis.egg-info/top_level.txt
