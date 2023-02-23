@@ -15,7 +15,7 @@ class DataValidation:
             raise CpaException(e,sys) from e
 
 
-    def preprocessing_data(self):
+    def preprocess_data(self):
         try:
             # loading all the data
             df = pd.read_csv(self.data_validation_config.marketing_campaign_csv_file,  sep='\t')

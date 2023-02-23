@@ -1,0 +1,9 @@
+[2023-02-23 17:37:42,827] numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2023-02-23 17:37:45,820] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-02-23 17:37:45,820] root - INFO -  Data Ingestion config: DatasetConfig(dataset_download_url='https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2023-02-23 17:37:45,820] root - INFO - Downloading data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-23 17:37:51,315] root - INFO - Downloaded data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-23 17:37:51,331] root - INFO - Extracting zip file: artifacts\dataset\raw_data\marketing_campaign.zip into dir: artifacts\dataset\ingested_data
+[2023-02-23 17:37:51,331] root - INFO - ====================Data Ingestion log completed.==================== 
+
+

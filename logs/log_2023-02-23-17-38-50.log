@@ -1,0 +1,11 @@
+[2023-02-23 17:38:51,341] numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2023-02-23 17:38:54,337] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-02-23 17:38:54,337] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2023-02-23 17:38:54,337] root - INFO - Downloading data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-23 17:39:02,809] root - INFO - Downloaded data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-23 17:39:02,825] root - INFO - Extracting zip file: artifacts\dataset\raw_data\marketing_campaign.zip into dir: artifacts\dataset\ingested_data
+[2023-02-23 17:39:02,825] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2023-02-23 17:39:02,825] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', marketing_campaign_csv_file='artifacts\\dataset\\ingested_data\\marketing_campaign.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2023-02-23 17:39:02,825] root - INFO - ====================Data Validation log started.==================== 

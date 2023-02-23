@@ -1,0 +1,4 @@
+[2023-02-23 17:18:31,022] numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2023-02-23 17:18:33,830] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-02-23 17:18:33,830] root - INFO -  Data Ingestion config: DatasetConfig(dataset_download_url='https://github.com/sumeet0701/Customer-personality-analysis/blob/master/marketing_campaign.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2023-02-23 17:18:33,830] root - INFO - Downloading data from https://github.com/sumeet0701/Customer-personality-analysis/blob/master/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip

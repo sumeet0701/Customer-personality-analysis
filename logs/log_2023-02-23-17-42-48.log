@@ -1,0 +1,57 @@
+[2023-02-23 17:42:48,714] numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2023-02-23 17:42:51,610] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-02-23 17:42:51,610] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2023-02-23 17:42:51,610] root - INFO - Downloading data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-23 17:43:22,078] root - INFO - Downloaded data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-23 17:43:22,093] root - INFO - Extracting zip file: artifacts\dataset\raw_data\marketing_campaign.zip into dir: artifacts\dataset\ingested_data
+[2023-02-23 17:43:22,093] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2023-02-23 17:43:22,093] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', marketing_campaign_csv_file='artifacts\\dataset\\ingested_data\\marketing_campaign.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2023-02-23 17:43:22,093] root - INFO - ====================Data Validation log started.==================== 
+[2023-02-23 17:43:22,118] root - INFO -  Shape of the data file: (2240, 29)
+[2023-02-23 17:43:22,437] root - INFO -  Shape of cleaned data file: (2204, 34)
+[2023-02-23 17:43:22,517] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2023-02-23 17:43:22,517] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2023-02-23 17:43:22,525] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2023-02-23 17:43:22,525] root - INFO - ====================Data Transformation log started.==================== 
+[2023-02-23 17:43:22,557] root - INFO - Saved personality data to artifacts\dataset\transformed_data
+[2023-02-23 17:43:22,557] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2023-02-23 17:43:22,565] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.csv', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2023-02-23 17:43:22,565] root - INFO - ====================Model Trainer log started.==================== 
+[2023-02-23 17:43:32,606] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2023-02-23 17:43:32,606] root - INFO - ====================Model Trainer log completed.==================== 
+
+
+[2023-02-23 17:43:32,606] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-02-23 17:43:32,606] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2023-02-23 17:43:32,606] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', marketing_campaign_csv_file='artifacts\\dataset\\ingested_data\\marketing_campaign.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2023-02-23 17:43:32,606] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2023-02-23 17:43:32,606] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.csv', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2023-02-23 17:43:32,606] root - INFO - Downloading data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-23 17:44:02,248] root - INFO - Downloaded data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-23 17:44:02,264] root - INFO - Extracting zip file: artifacts\dataset\raw_data\marketing_campaign.zip into dir: artifacts\dataset\ingested_data
+[2023-02-23 17:44:02,264] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2023-02-23 17:44:02,264] root - INFO - ====================Data Validation log started.==================== 
+[2023-02-23 17:44:02,280] root - INFO -  Shape of the data file: (2240, 29)
+[2023-02-23 17:44:02,556] root - INFO -  Shape of cleaned data file: (2204, 34)
+[2023-02-23 17:44:02,612] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2023-02-23 17:44:02,612] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2023-02-23 17:44:02,612] root - INFO - ====================Data Transformation log started.==================== 
+[2023-02-23 17:44:02,636] root - INFO - Saved personality data to artifacts\dataset\transformed_data
+[2023-02-23 17:44:02,644] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2023-02-23 17:44:02,644] root - INFO - ====================Model Trainer log started.==================== 
+[2023-02-23 17:44:13,013] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2023-02-23 17:44:13,013] root - INFO - ====================Model Trainer log completed.==================== 
+
+
