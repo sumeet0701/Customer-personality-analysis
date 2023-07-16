@@ -13,15 +13,21 @@ on its target customers from different types of customer segments.
 
 **IDE:** Visual Studio Code
 
-**language:** Python
+**language:** Python(OOPS)
 
 **FrameWork:** Pandas, NumPy, Seaborn, Plotly, Scikit-learn,Flask API
 
 **DataBase:** MongoDB, Github
 
+**Machine Learning Algorithm** UnSupervised ALGO(K-MEAN, Hierarchical Clustering) PCA
+
 **version Control:**  Git, Docker
 
 **Deployment:** Railway 
+
+### Process Work Flow(Pipeline)
+![Fraud Transaction Detection](https://github.com/sumeet0701/Customer-personality-analysis/assets/63961794/89d87be5-4371-4dd3-8acf-57bc220c282a)
+
 
 
 ### STEP 01- Create a conda environment 
